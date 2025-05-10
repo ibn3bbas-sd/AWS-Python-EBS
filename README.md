@@ -1,4 +1,4 @@
-# AWS-Python-ES2
+# AWS-Python-EBS
 
 As a Cloud Engineering team we take care of the AWS environment and make sure it is in compliance with the organizational policies.
 We use AWS cloud watch in combination with AWS Lambda to govern the resources according to the policies.
