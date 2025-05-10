@@ -23,32 +23,3 @@ def lambda_handler(event, context):
          VolumeType='gp3',
        
     )
-    
-    
-    
-    
-#     event = {
-#   "version":"0",
-#   "id":"0c2a5f83-529c-e4a9-3d06-a748683962be",
-#   "detail-type":"EBS Volume Notification",
-#   "source":"aws.ec2",
-#   "account":"228096628438",
-#   "time":"2023-08-04T06:10:58Z",
-#   "region":"us-east-1",
-#   "resources":[
-#       "arn:aws:ec2:us-east-1:228096628438:volume/vol-013e6faad2b03c780"
-#   ],
-#   "detail":{
-#       "result":"available",
-#       "cause":"",
-#       "event":"createVolume",
-#       "request-id":"9c1a7be0-2f73-4523-8e60-4bc3e4c71529"
-#   }
-# }
-    
-    
-    # print(event)
-    # return {
-    #     'statusCode': 200,
-    #     'body': json.dumps('Hello from Lambda!')
-    # }
